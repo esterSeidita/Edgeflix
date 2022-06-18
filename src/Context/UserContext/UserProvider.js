@@ -26,7 +26,7 @@ export default function UserContextProvider({ children }) {
   const fetchAllUsers = async () => {
     dispatch({ type: FETCH_ALL_USERS_REQUEST });
     try {
-      const res = await fetch("https://edgemony-backend.herokuapp.com/users");
+      const res = await fetch("https://ester-backend.herokuapp.com/users");
       const data = await res.json();
       dispatch({ type: FETCH_ALL_USERS_SUCCESS, payload: data });
     } catch (e) {

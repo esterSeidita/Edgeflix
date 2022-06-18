@@ -37,12 +37,12 @@ export default function MovieContextProvider({ children }) {
     dispatch({ type: FETCH_ALL_MOVIES_REQUEST });
     try {
       const res = !admin
-        ? await fetch("https://edgemony-backend.herokuapp.com/660/series", {
+        ? await fetch("https://ester-backend.herokuapp.com/660/series", {
             headers: {
               Authorization: `Bearer ${token}`,
             },
           })
-        : await fetch("https://edgemony-backend.herokuapp.com/series");
+        : await fetch("https://ester-backend.herokuapp.com/series");
 
       const data = await res.json();
 
@@ -59,7 +59,7 @@ export default function MovieContextProvider({ children }) {
     dispatch({ type: RATING_MOVIES_REQUEST });
     try {
       const res = await fetch(
-        `https://edgemony-backend.herokuapp.com/series/${id}`,
+        `https://ester-backend.herokuapp.com/series/${id}`,
         {
           method: "PATCH",
           headers: {
@@ -84,7 +84,7 @@ export default function MovieContextProvider({ children }) {
     dispatch({ type: FAVOURITE_MOVIES_REQUEST });
     try {
       const res = await fetch(
-        `https://edgemony-backend.herokuapp.com/series/${id}`,
+        `https://ester-backend.herokuapp.com/series/${id}`,
         {
           method: "PATCH",
           headers: {
@@ -110,7 +110,7 @@ export default function MovieContextProvider({ children }) {
     dispatch({ type: HIDE_MOVIES_REQUEST });
     try {
       const req = await fetch(
-        `https://edgemony-backend.herokuapp.com/series/${movieID}`,
+        `https://ester-backend.herokuapp.com/series/${movieID}`,
         {
           method: "PATCH",
           headers: {
@@ -137,7 +137,7 @@ export default function MovieContextProvider({ children }) {
     dispatch({ type: DELETE_MOVIES_REQUEST });
     try {
       const req = await fetch(
-        `https://edgemony-backend.herokuapp.com/series/${id}`,
+        `https://ester-backend.herokuapp.com/series/${id}`,
         {
           method: "DELETE",
           headers: {

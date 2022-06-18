@@ -47,7 +47,7 @@ export default function AccessForm({ sendData, endPoint }) {
   const fetchAccess = async (values, endPoint) => {
     try {
       const request = await fetch(
-        `https://edgemony-backend.herokuapp.com/${endPoint}`,
+        `https://ester-backend.herokuapp.com/${endPoint}`,
         {
           method: "POST",
           headers: {
