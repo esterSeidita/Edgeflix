@@ -1,76 +1,27 @@
-# EDGEMONY FINAL PROJECT - TEAM A
+# Edgeflix: a Netflix clone
 
-## Organizzazione
+## Features: 
 
-- daily standup **lun-ven 9-9.30**
-- durante il daily si segnalano problemi, si discutono implementazioni
-- si lavora in maniera autonoma
-- i task possono essere assegnati sia dal team leader che dal team stesso
+- Signin/signup flow
+- Available series list for each user
+- Filter by genre, cast, or title
+- Movies details on click
+- You can:
+    - add a movie to your list
+    - give a rating from 1 to 5
+    - hide a movie
+- Responsive layout 
+- Video in autoplay as homepage hero
 
-## Strumenti
+## Homepage:
+![image](https://user-images.githubusercontent.com/101104738/174443920-9dc48018-d006-41f3-89cb-99f0c83b81f6.png)
 
-- Github
-  - repo
-  - issues
-  - board
-- Slack
-- Google Meet & Calendar
-- hosting: **scelta libera**
-- framework: **scelta tra CRA, Vite, Next**
-- librerie: **scelta libera**
+## Signin:
+![image](https://user-images.githubusercontent.com/101104738/174443983-289951c8-e887-4f22-a780-48882a03bf0e.png)
 
-## Backend
+## Signup:
+![image](https://user-images.githubusercontent.com/101104738/174444119-b7f99d38-dfdc-4861-9996-a8e48f113001.png)
 
-L'endpoint di backend è:
+## Team:
+[Carmelo](https://github.com/carmelofileccia), [Ale](https://github.com/Gar1994), [Giulio](https://github.com/Gibis93), and [Me](https://github.com/esterSeidita)
 
-[https://edgemony-backend.herokuapp.com/series/](https://edgemony-backend.herokuapp.com/series/)
-
-i dati esposti seguono questo schema:
-
-```json
-{
-  "id": number,
-  "title": string,
-  "seasons": number,
-  "poster": string,
-  "year": number,
-  "description": string,
-  "genres": string[],
-  "new": boolean,
-  "favorite": boolean,
-  "rating": number,
-  "users": number[],
-  "cast": string[]
-}
-```
-
-L'utilizzo degli endpoint con autenticazione è documento nel [relativo repository](https://github.com/edgemony-coding-bootcamp/edgemony-course-backend).
-
-> NB: su richiesta è possibile modificare lo schema per aggiungere nuovi dati.
-
-## Repository
-
-- il branch `main` è protetto
-- ogni task viene sviluppato in una branch con nomenclatura `feature/[task]` o `fix/[task]` in base alla tipologia
-- per mergiare il codice da una branch verso `main` si crea una PR assegnando tutti i membri del team come reviewer
-- le PR possono essere mergiate solo aver ricevuto **almeno 1 approvazione**
-- siete liberi di fare fork ma solo questo repo sarà quello preso in considerazione
-
-## Obiettivo
-
-- **NETFLIX CLONE! (EDGEFLIX)**
-  - usate l'attuale UI di Netflix come punto di partenza ma siete liberi di applicare eventuali personalizzazioni
-- **obiettivi minimi:**
-  - visualizzare lista (in griglia) serie disponibili
-    - filtri per genere
-  - cliccando su una locandina vedo i dettagli di una singola serie
-  - nel dettaglio di una serie posso:
-    - marcare una serie come preferita
-    - esprimere un giudizio, voto da 1 a 5
-    - cancellare/nascondere la serie
-  - layout responsive
-- **obiettivi extra:**
-  - flusso di login (signin) e mostrare solo i dati legati all'utente loggato
-  - flusso creazione nuove utente (signup)
-  - ricerca testuale (titolo)
-  - video in autoplay in home
