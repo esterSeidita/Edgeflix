@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Edgeflix/static/css/main.6ca49cac.css",
-    "main.js": "/Edgeflix/static/js/main.f3214034.js",
+    "main.js": "/Edgeflix/static/js/main.e4d75171.js",
     "static/css/77.260eb94c.chunk.css": "/Edgeflix/static/css/77.260eb94c.chunk.css",
     "static/js/77.7cdb2ff8.chunk.js": "/Edgeflix/static/js/77.7cdb2ff8.chunk.js",
     "static/css/72.465ac122.chunk.css": "/Edgeflix/static/css/72.465ac122.chunk.css",
-    "static/js/72.ff879ba1.chunk.js": "/Edgeflix/static/js/72.ff879ba1.chunk.js",
+    "static/js/72.98bcb8df.chunk.js": "/Edgeflix/static/js/72.98bcb8df.chunk.js",
     "static/css/891.19aef234.chunk.css": "/Edgeflix/static/css/891.19aef234.chunk.css",
-    "static/js/891.21bacda3.chunk.js": "/Edgeflix/static/js/891.21bacda3.chunk.js",
+    "static/js/891.6e87db13.chunk.js": "/Edgeflix/static/js/891.6e87db13.chunk.js",
     "static/js/787.aae3408c.chunk.js": "/Edgeflix/static/js/787.aae3408c.chunk.js",
     "static/js/856.74c7c760.chunk.js": "/Edgeflix/static/js/856.74c7c760.chunk.js",
     "static/js/18.c7516d9d.chunk.js": "/Edgeflix/static/js/18.c7516d9d.chunk.js",
@@ -19,19 +19,19 @@
     "static/media/Stranger-Things-logo.webp": "/Edgeflix/static/media/Stranger-Things-logo.4c69a318b55b9178a8f7.webp",
     "index.html": "/Edgeflix/index.html",
     "main.6ca49cac.css.map": "/Edgeflix/static/css/main.6ca49cac.css.map",
-    "main.f3214034.js.map": "/Edgeflix/static/js/main.f3214034.js.map",
+    "main.e4d75171.js.map": "/Edgeflix/static/js/main.e4d75171.js.map",
     "77.260eb94c.chunk.css.map": "/Edgeflix/static/css/77.260eb94c.chunk.css.map",
     "77.7cdb2ff8.chunk.js.map": "/Edgeflix/static/js/77.7cdb2ff8.chunk.js.map",
     "72.465ac122.chunk.css.map": "/Edgeflix/static/css/72.465ac122.chunk.css.map",
-    "72.ff879ba1.chunk.js.map": "/Edgeflix/static/js/72.ff879ba1.chunk.js.map",
+    "72.98bcb8df.chunk.js.map": "/Edgeflix/static/js/72.98bcb8df.chunk.js.map",
     "891.19aef234.chunk.css.map": "/Edgeflix/static/css/891.19aef234.chunk.css.map",
-    "891.21bacda3.chunk.js.map": "/Edgeflix/static/js/891.21bacda3.chunk.js.map",
+    "891.6e87db13.chunk.js.map": "/Edgeflix/static/js/891.6e87db13.chunk.js.map",
     "787.aae3408c.chunk.js.map": "/Edgeflix/static/js/787.aae3408c.chunk.js.map",
     "856.74c7c760.chunk.js.map": "/Edgeflix/static/js/856.74c7c760.chunk.js.map",
     "18.c7516d9d.chunk.js.map": "/Edgeflix/static/js/18.c7516d9d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ca49cac.css",
-    "static/js/main.f3214034.js"
+    "static/js/main.e4d75171.js"
   ]
 }
